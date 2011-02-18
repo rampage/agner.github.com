@@ -30,6 +30,21 @@ a:active {
   -webkit-border-radius:8px;
 }
 
+.status {
+  margin-top: -2px;
+  margin-left: -30px;
+  padding-bottom: 2px;
+  color: #666;
+  font-size:12px;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif
+}
+
+#agnerbox .close {
+  position: relative;
+  top: -30px;
+  right: -815px;
+}
+
 #agnerbox div {
   padding-left:10px;
   border:1px solid #3B5998;
@@ -49,7 +64,7 @@ a:active {
 
 /* container for external content. uses vertical scrollbar, if needed */
 div.contentWrap {
-    height:440px;
+    height:25em;
     width: 815px;
     overflow-x: hidden;       
     overflow-y: scroll;
